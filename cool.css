@@ -1,1 +1,10 @@
-*{outline: blue solid 2px;}
+h1{
+    text-align: center;
+}
+#stopwatch{
+    outline: blue solid 4px; width: 50px; height: 50px;
+}
+#hourglass{
+    outline: red solid 2px;
+    width: 50vw;
+}
