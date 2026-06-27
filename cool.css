@@ -2,9 +2,18 @@ h1{
     text-align: center;
 }
 #stopwatch{
-    outline: blue solid 4px; width: 50px; height: 50px;
+    outline: blue solid 4px; width: 150px; height: 150px;
 }
 #hourglass{
     outline: red solid 2px;
     width: 50vw;
+}
+#buttonContainer{
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+#buttonContainer button{
+    width: 10vw;
+    height: 3vw;
 }
