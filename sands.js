@@ -26,7 +26,7 @@ let frameD
 
 var t = 0;
 var capacityA = 4;
-var capacityB = 137;
+var capacityB = 7;
 var elapsedA = capacityA;
 var elapsedB = capacityB;
 
@@ -206,7 +206,6 @@ function flip(){
         }
         if(event.target.id == "remain"){
             if(!(finishedA && finishedB)){
-                console.log("yoy");
                 critical = false;
             }
         }
@@ -219,4 +218,4 @@ flipA.addEventListener("click", flip);
 flipB.addEventListener("click", flip);
 flipBoth.addEventListener("click", flip);
 remain.addEventListener("click", flip);
-setInterval(logicLoop, 500);
+setInterval(logicLoop, 100);
